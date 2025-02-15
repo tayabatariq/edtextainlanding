@@ -1,8 +1,16 @@
 import React from 'react'
+import SonneSection from '../components/Sonne'
+import ProjectSect2 from '../components/ProjectSect2'
+import Projectmain from '../components/Projectmain'
 
 const Project = () => {
   return (
-    <div>Project</div>
+   <>
+   <Projectmain/>
+   <ProjectSect2/>
+   <SonneSection/>
+
+   </>
   )
 }
 

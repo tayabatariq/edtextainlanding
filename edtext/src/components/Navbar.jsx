@@ -1,23 +1,26 @@
-import React from "react";
-import Button from "./Button";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import Button from './Button'
+import logo from '../assests/logo.png'
 
 const Navbar = () => {
   return (
     <>
-      <nav>
-        <div className="logo"></div>
-        <div className="link">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/project">Projects</NavLink>
-          <NavLink to="/publication">Publication</NavLink>
-          <NavLink to="/news">News</NavLink>
-        </div>
-        <Button navbtn="Donate Now" />
-      </nav>
-    </>
-  );
-};
+    <nav className='w-full px-20 py-3  flex justify-between items-center '>
+<div className="logo ">
+  <img src={logo} className='w-44' alt="logo img" />
 
-export default Navbar;
+</div>
+<div className="links font-title flex items-center justify-center gap-10">
+  <a href="#" className=' '>Home</a>
+  <a href="">About</a>
+  <a href="">News</a>
+  <a href="">Project</a>
+  <a href="">Publication</a>
+</div>
+<Button navbtn="Donate Now"/>
+    </nav>
+    </>
+  )
+}
+
+export default Navbar
