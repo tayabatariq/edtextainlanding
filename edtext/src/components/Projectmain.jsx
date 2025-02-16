@@ -7,6 +7,7 @@ import MWEC from '../assests/MWEC.png'
 import movingman from '../assests/maskgroup2.png'
 
 
+
 const Projectmain = () => {
     
 const projects = [
