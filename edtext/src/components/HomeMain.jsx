@@ -23,7 +23,7 @@ const HomeSection = () => {
           Working together towards an eco-friendly future, with renewable
           practices for long-term health and prosperity.
         </p>
-        <button className="bg-red-500 text-white text-lg font-semibold px-6 py-3 rounded-lg mt-6">
+        <button className="bg-red-500 hover:bg-white hover:text-red-500 hover:border-2 border-2 border-transparent hover:border-red-500 transition-all duration-300 text-white text-lg font-semibold px-6 py-3 rounded-lg mt-6">
           Donate now
         </button>
     

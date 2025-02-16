@@ -29,7 +29,7 @@ const ServicesSection = () => {
   return (
     <section className="py-16 relative bg-white">
       <div className="container mx-auto px-4 text-center">
-      <img src={Highlight_05} className='absolute  top-10 left-[32rem]'  alt="Highlight_05" />
+      <img src={Highlight_05} className='absolute max-sm:left-[5rem] max-md:left-[9rem]  top-10 left-[32rem]'  alt="Highlight_05" />
 
 <h1 className='text-5xl font-semibold m-2 text-gray-900  capitalize'>services</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

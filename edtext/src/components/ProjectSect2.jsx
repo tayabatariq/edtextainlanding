@@ -19,6 +19,9 @@ const ProjectSect2 = () => {
         </div>
       </div>
     </section>
+
+
+   
     </>
   )
 }
