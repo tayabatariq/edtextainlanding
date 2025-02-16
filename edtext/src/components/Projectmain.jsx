@@ -33,9 +33,9 @@ const projects = [
   ];
   return (
     <>
-    <section className="py-16 bg-white">
+    <section id='project' className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <Headings/>
+        <Headings head="Our Work: Projects" />
 
         <div className="bg-white border border-gray-600 mt-10 rounded-xl p-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">Moving Women Empowerment Network (MWEN)</h3>

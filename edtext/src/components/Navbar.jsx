@@ -12,9 +12,9 @@ const Navbar = () => {
 </div>
 <div className="links font-title flex items-center justify-center gap-10">
   <a href="#" className=' '>Home</a>
-  <a href="">About</a>
-  <a href="">News</a>
-  <a href="">Project</a>
+  <a href="#about">About</a>
+  <a href="#news">News</a>
+  <a href="#project">Project</a>
   <a href="">Publication</a>
 </div>
 <Button navbtn="Donate Now"/>

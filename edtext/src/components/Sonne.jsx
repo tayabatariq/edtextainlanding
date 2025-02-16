@@ -38,7 +38,7 @@ const SonneSection = () => {
         </div>
 
         <div className="mt-16">
-          <div className="bg-gray-50 rounded-xl p-10 shadow-md">
+          <div className="bg-gray-50 rounded-xl p-11 shadow-md">
             <div className="flex justify-center gap-8 flex-wrap">
               <img src={AKPM} alt="Partner Logo 1" className="h-13" />
               <img src={i_niche} alt="Partner Logo 2" className="h-13" />

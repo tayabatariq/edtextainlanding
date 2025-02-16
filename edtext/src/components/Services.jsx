@@ -1,4 +1,6 @@
 import React from 'react';
+import Headings from '../components/Headings'
+import Highlight_05 from '../assests/Highlight_05.png'
 
 const services = [
   {
@@ -25,9 +27,12 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 relative bg-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8">Services</h2>
+      <img src={Highlight_05} className='absolute  top-10 left-[32rem]'  alt="Highlight_05" />
+
+               <Headings head="Services" />
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div key={index} className="p-6 bg-white shadow-md rounded-2xl hover:shadow-lg transition duration-300">

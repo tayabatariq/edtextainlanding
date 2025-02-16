@@ -5,7 +5,7 @@ import red_dots from '../assests/red_dots.png'
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col mb-20 md:flex-row items-center px-6 md:px-16 lg:px-24 py-12 bg-white">
+    <section id="about" className="flex flex-col mb-20 md:flex-row items-center px-6 md:px-16 lg:px-24 py-12 bg-white">
       {/* Left Image Section */}
       <div className="md:w-1/2 relative flex flex-col items-center md:items-start space-y-4">
         <img
