@@ -10,11 +10,7 @@ const AboutSection = () => {
           alt="Enabling People"
           className="rounded-lg shadow-lg w-full max-w-md"
         />
-        <img
-          src="/mnt/data/as_small.PNG"
-          alt="Star Hands"
-          className="rounded-lg shadow-md w-32 h-32 md:absolute top-10 left-10"
-        />
+       
       </div>
 
       {/* Right Content Section */}
