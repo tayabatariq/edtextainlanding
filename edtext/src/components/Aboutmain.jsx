@@ -1,16 +1,20 @@
 import React from "react";
+import man_standing_on_rock from '../assests/man_standing_on_rock.png'
+import people_making_star from '../assests/people_making_star.png'
+import red_dots from '../assests/red_dots.png'
 
 const AboutSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center px-6 md:px-16 lg:px-24 py-12 bg-white">
+    <section className="flex flex-col mb-20 md:flex-row items-center px-6 md:px-16 lg:px-24 py-12 bg-white">
       {/* Left Image Section */}
-      <div className="md:w-1/2 flex flex-col items-center md:items-start space-y-4">
+      <div className="md:w-1/2 relative flex flex-col items-center md:items-start space-y-4">
         <img
-          src="/mnt/data/as.PNG"
-          alt="Enabling People"
-          className="rounded-lg shadow-lg w-full max-w-md"
+          src={man_standing_on_rock}
+          alt="man_standing_on_rock"
+          className="rounded-lg shadow-lg absolute  z-20 right-4 -top-[10rem] w-[70%] max-w-md"
         />
-       
+       <img src={red_dots} className="absolute left-20  top-[8rem]" alt="red_dots" />
+       <img src={people_making_star} className="absolute z-30  w-1/3 left-10 -top-[13rem]" alt="people_making_star" />
       </div>
 
       {/* Right Content Section */}

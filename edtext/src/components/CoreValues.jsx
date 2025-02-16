@@ -37,11 +37,11 @@ const CoreValues = () => {
     <section className="py-12 px-6 md:px-16 lg:px-24 bg-white">
       <div className="flex flex-col relative md:flex-row justify-center items-center gap-6">
         {values.map((value, index) => (
-          <div key={index} className={`relative ${value.bgColor} p-6 rounded-lg shadow-lg w-64 text-center`}>
-            <div className="absolute -top-6 left-1/2 transform shadow-gray-300 -translate-x-1/2 bg-white p-3 rounded-full shadow-lg">
+          <div key={index} className={`relative ${value.bgColor} p-4 rounded-lg shadow-lg w-64 text-left`}>
+            <div className="absolute -top-6 left-1/2 transform shadow-gray-300 -translate-x-1/2 bg-white p-6 rounded-full shadow-lg">
               {value.icon}
             </div>
-            <p className="mt-10 font-semibold text-2xl text-gray-800">{value.title}</p>
+            <p className="mt-10 font-semibold text-[1.5rem] text-gray-800">{value.title}</p>
             <img src={groupLines} alt="grouplines" className="w-1/3 ml-36  mt-2" />
           </div>
         ))}
