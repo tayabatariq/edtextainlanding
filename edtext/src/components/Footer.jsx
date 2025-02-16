@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1a1e35] text-white py-8">
+    <footer className="bg-[#1a1e35] text-white pt-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h2 className="text-xl font-bold text-[#00b3ff]">edtextain</h2>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-red-600 text-center text-sm py-4 mt-8">
+      <div className="bg-red-600 text-center text-sm py-2 mt-8">
         © 2025 All rights reserved
       </div>
     </footer>

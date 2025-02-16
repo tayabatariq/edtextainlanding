@@ -1,4 +1,7 @@
 import React from 'react';
+import student_in_class from '../assests/student_in_class.png'
+import black_boy_drinkwater from '../assests/black_boy_drinkwater.png'
+import children_smiling from '../assests/children_smiling.png'
 
 const NewsSection = () => {
   const newsData = [
@@ -8,7 +11,7 @@ const NewsSection = () => {
       description: 'Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do eiusmod...',
       date: '30 Dec, 2021',
       author: 'Admin',
-      image: 'https://via.placeholder.com/300x200'
+      image: student_in_class
     },
     {
       category: '#Education',
@@ -16,7 +19,7 @@ const NewsSection = () => {
       description: 'Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do eiusmod...',
       date: '30 Dec, 2021',
       author: 'Admin',
-      image: 'https://via.placeholder.com/300x200'
+      image: black_boy_drinkwater
     },
     {
       category: '#Water',
@@ -24,7 +27,7 @@ const NewsSection = () => {
       description: 'Lorem ipsum dolor sit amet, consectetur notted adipiscing elit sed do eiusmod...',
       date: '30 Dec, 2021',
       author: 'Admin',
-      image: 'https://via.placeholder.com/300x200'
+      image: children_smiling
     }
   ];
 
@@ -47,6 +50,7 @@ const NewsSection = () => {
               <p className="text-sm text-gray-600 mb-4">{news.description}</p>
               <div className="text-xs text-gray-500 flex justify-between">
                 <span>Date: {news.date}</span>
+ 
                 <span>By: {news.author}</span>
               </div>
             </div>
