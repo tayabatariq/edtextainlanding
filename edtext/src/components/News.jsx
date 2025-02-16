@@ -37,7 +37,7 @@ const NewsSection = () => {
 
   return (
    
-    <section className="w-full h-screen max-md:h-auto   mb-20 max-md:mb-0 ">
+    <section className="w-full  max-md:h-auto   mb-20 max-md:mb-0 ">
       <div className="w-full h-3/4 bg-[#eef4f8] py-10">
         <div className="text-center mb-12">
           <h3 className="text-gray-500 text-lg">News</h3>

@@ -18,7 +18,7 @@ const Conatctsec = () => {
               <p className="italic text-xl mb-4">- Celebrating excellence, Building Connections...</p>
               <p className="text-lg">We provide support for questions on jobs, trainings, language course, integration, family and general life in Germany.</p>
             </div>
-            <div className="bg-white text-gray-800 rounded-xl shadow-md p-6">
+            <div className="bg-white w-[70%] text-gray-800 rounded-xl shadow-md p-6">
               <h3 className="text-xl font-bold text-red-600 mb-4">You can book an appointment online:</h3>
               <ul>
                 <li className="flex items-center mb-2">
